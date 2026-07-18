@@ -80,16 +80,19 @@ html {
 /* Hero Section */
 
 .hero {
-    height: 90vh;
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
-        url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
+    background: linear-gradient(rgba(0,0,0,0.2),rgb(0,0,0,0.2)),    
+    url("https://www.holidify.com/images/bgImages/MANALI.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: white;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
 }
 
 .hero-content {
